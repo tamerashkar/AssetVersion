@@ -20,7 +20,7 @@ class AssetVersionServiceProvider extends ServiceProvider {
 	public function boot()
 	{
         $app   = $this->app;
-		$this->package('tashkar18/AssetVersion');
+		$this->package('tashkar18/asset-version', 'AssetVersion');
 
 		$this->setupAlias();
 
